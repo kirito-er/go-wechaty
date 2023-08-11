@@ -1,4 +1,4 @@
-module github.com/wechaty/go-wechaty
+module github.com/kirito-er/go-wechaty
 
 go 1.18
 
