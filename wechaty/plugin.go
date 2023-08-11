@@ -2,7 +2,7 @@ package wechaty
 
 import (
 	"fmt"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/schemas"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/schemas"
 	"reflect"
 	"runtime/debug"
 	"sync"

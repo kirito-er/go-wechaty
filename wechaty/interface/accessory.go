@@ -1,12 +1,12 @@
 package _interface
 
 import (
-  wechatyPuppet "github.com/wechaty/go-wechaty/wechaty-puppet"
+	wechatyPuppet "github.com/kirito-er/go-wechaty/wechaty-puppet"
 )
 
 // IAccessory accessory interface
 type IAccessory interface {
-  GetPuppet() wechatyPuppet.IPuppetAbstract
+	GetPuppet() wechatyPuppet.IPuppetAbstract
 
-  GetWechaty() IWechaty
+	GetWechaty() IWechaty
 }

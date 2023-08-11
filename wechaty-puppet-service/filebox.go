@@ -5,8 +5,8 @@ import (
 	"errors"
 	pbwechaty "github.com/wechaty/go-grpc/wechaty"
 	pbwechatypuppet "github.com/wechaty/go-grpc/wechaty/puppet"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/filebox"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/helper"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/filebox"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/helper"
 	"io"
 )
 

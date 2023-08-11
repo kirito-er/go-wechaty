@@ -3,8 +3,8 @@ package helper
 import (
 	"encoding/xml"
 	"fmt"
-	logger "github.com/wechaty/go-wechaty/wechaty-puppet/log"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/schemas"
+	logger "github.com/kirito-er/go-wechaty/wechaty-puppet/log"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/schemas"
 )
 
 var log = logger.L.WithField("module", "wechaty-puppet/helper")

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/wechaty/go-wechaty/wechaty-puppet/schemas"
-	_interface "github.com/wechaty/go-wechaty/wechaty/interface"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/schemas"
+	_interface "github.com/kirito-er/go-wechaty/wechaty/interface"
 )
 
 type Friendship struct {

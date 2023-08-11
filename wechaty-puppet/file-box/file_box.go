@@ -4,7 +4,7 @@
 package file_box
 
 import (
-	"github.com/wechaty/go-wechaty/wechaty-puppet/filebox"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/filebox"
 )
 
 // FileBox ...

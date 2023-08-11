@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/wechaty/go-wechaty/wechaty-puppet/helper"
-	_interface "github.com/wechaty/go-wechaty/wechaty/interface"
-	"github.com/wechaty/go-wechaty/wechaty/user"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/helper"
+	_interface "github.com/kirito-er/go-wechaty/wechaty/interface"
+	"github.com/kirito-er/go-wechaty/wechaty/user"
 )
 
 type ContactFactory struct {

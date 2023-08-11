@@ -1,6 +1,6 @@
 package _interface
 
-import "github.com/wechaty/go-wechaty/wechaty-puppet/filebox"
+import "github.com/kirito-er/go-wechaty/wechaty-puppet/filebox"
 
 type IContactSelfFactory interface {
 	IContactFactory

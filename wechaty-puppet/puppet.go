@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/events"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/filebox"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/helper"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/schemas"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/events"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/filebox"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/helper"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/schemas"
 )
 
 // iPuppet puppet concrete interface

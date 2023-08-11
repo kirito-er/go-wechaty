@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/mdp/qrterminal/v3"
-	"github.com/wechaty/go-wechaty/wechaty"
-	wp "github.com/wechaty/go-wechaty/wechaty-puppet"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/filebox"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/schemas"
-	"github.com/wechaty/go-wechaty/wechaty/user"
+	"github.com/kirito-er/go-wechaty/wechaty"
+	wp "github.com/kirito-er/go-wechaty/wechaty-puppet"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/filebox"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/schemas"
+	"github.com/kirito-er/go-wechaty/wechaty/user"
 )
 
 func main() {
@@ -70,7 +70,7 @@ func onMessage(ctx *wechaty.Context, message *user.Message) {
 		Description:  "Go Wechaty is a Conversational SDK for Chatbot Makers Written in Go",
 		ThumbnailUrl: "https://wechaty.js.org/img/icon.png",
 		Title:        "wechaty/go-wechaty",
-		Url:          "https://github.com/wechaty/go-wechaty",
+		Url:          "https://github.com/kirito-er/go-wechaty",
 	})
 	_, err = message.Say(urlLink)
 	if err != nil {

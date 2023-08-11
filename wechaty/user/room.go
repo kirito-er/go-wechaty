@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/wechaty/go-wechaty/wechaty-puppet/filebox"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/helper"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/schemas"
-	"github.com/wechaty/go-wechaty/wechaty/config"
-	_interface "github.com/wechaty/go-wechaty/wechaty/interface"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/filebox"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/helper"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/schemas"
+	"github.com/kirito-er/go-wechaty/wechaty/config"
+	_interface "github.com/kirito-er/go-wechaty/wechaty/interface"
 )
 
 type Room struct {

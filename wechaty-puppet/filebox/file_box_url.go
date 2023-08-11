@@ -3,7 +3,7 @@ package filebox
 import (
 	"bytes"
 	"fmt"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/helper"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/helper"
 	"io"
 	"io/ioutil"
 	"net/http"

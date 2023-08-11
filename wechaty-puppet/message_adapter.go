@@ -1,8 +1,8 @@
 package wechatypuppet
 
 import (
-	"github.com/wechaty/go-wechaty/wechaty-puppet/helper"
-	"github.com/wechaty/go-wechaty/wechaty-puppet/schemas"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/helper"
+	"github.com/kirito-er/go-wechaty/wechaty-puppet/schemas"
 	"regexp"
 )
 
@@ -52,6 +52,6 @@ func (r RecalledMsgAdapter) Handle(payload *schemas.MessagePayload) {
 		return
 	}
 	// padlocal 返回的是 xml，需要解析出 msgId
-	// https://github.com/wechaty/go-wechaty/issues/87
+	// https://github.com/kirito-er/go-wechaty/issues/87
 	payload.Text = helper.ParseRecalledID(payload.Text)
 }

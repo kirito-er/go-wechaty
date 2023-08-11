@@ -1,6 +1,6 @@
 package _interface
 
-import "github.com/wechaty/go-wechaty/wechaty-puppet/schemas"
+import "github.com/kirito-er/go-wechaty/wechaty-puppet/schemas"
 
 type IFriendshipFactory interface {
 	Load(id string) IFriendship

@@ -1,7 +1,7 @@
 package puppetservice
 
 import (
-	logger "github.com/wechaty/go-wechaty/wechaty-puppet/log"
+	logger "github.com/kirito-er/go-wechaty/wechaty-puppet/log"
 	"os"
 )
 
