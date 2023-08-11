@@ -35,7 +35,7 @@ func (p *ServiceEndPoint) Target() string {
 
 // discoverServiceEndPoint discover service endpoint ip and port
 func (p *PuppetService) discoverServiceEndPoint() (endPoint ServiceEndPoint, err error) {
-	const serviceEndpoint = "https://api.chatie.io/v0/hosties/%s"
+	const serviceEndpoint = "https://token-service-discovery-test.juzibot.com/v0/hosties/%s"
 
 	if p.Token == "" {
 		return endPoint, ErrNotToken
